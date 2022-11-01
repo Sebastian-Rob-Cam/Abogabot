@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
 body {
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -16,13 +19,14 @@ header nav {
 }
 /* Left side of the navbar */
 #leftSide {
-    background-color: antiquewhite;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 #leftSide ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1em;
     list-style: none;
     overflow: hidden;
 }
@@ -38,9 +42,48 @@ header nav {
 
 /* Right side of the navbar */
 #rightSide {
-    background-color: aliceblue;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0.5em;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 1em;
+}
+
+#rightSide a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#loginButton {
+    height: 3em;
+    width: 10em;
+    font-size: 1em;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#loginButton:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#registerButton {
+    height: 3em;
+    width: 10em;
+    font-size: 1em;
+    font-weight: 400;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#registerButton:hover {
+    background-color: rgba(0, 0, 0, 0.7);
 }
