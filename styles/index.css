@@ -1,0 +1,22 @@
+.container {
+    padding: 5em 10em 0 10em;
+}
+
+#container-queEsAbogabot {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+#container-queEsAbogabot div {
+    display: flex;
+    justify-content: center;
+}
+
+#container-queEsAbogabot img {
+    width: auto;
+    height: 400px;
+}
+
+#container-queEsAbogabot article {
+    padding-left: 1em;
+}
