@@ -27,6 +27,3 @@
   
 ## Wireframe (Dashboard Admin.)::globe_with_meridians::computer::dollar::chart::email:
   ↳ https://www.figma.com/file/UMqZAAXUzt8YubEcSkAB4x/Abogabot?node-id=59%3A236 
-
-
-# Hola mundo
