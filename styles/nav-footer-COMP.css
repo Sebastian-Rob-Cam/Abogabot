@@ -1,89 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-}
+/* Nav bar */
 header {
-    width: 100%;
-    position: fixed;
+    max-height: 3em;
 }
 
 header nav {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    width: 100%;
-    min-height: 3em;
-    float: left;
+    grid-template-columns: 60% 25%;
+    grid-gap: 15%;
 }
-/* Left side of the navbar */
-#leftSide {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-#leftSide ul {
+
+header nav section ul {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 1em;
+    margin: 0;
+    padding: 0;
+    max-height: 3em;
     list-style: none;
-    overflow: hidden;
 }
 
-#leftSide ul li {
-    float: left;
-}
-
-#leftSide ul li a {
+header nav section ul li a{
     text-decoration: none;
     color: inherit;
 }
 
-/* Right side of the navbar */
-#rightSide {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 0.5em;
-    justify-content: flex-end;
+header nav section ul li {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-right: 1em;
 }
 
-#rightSide a {
-    text-decoration: none;
-    color: inherit;
+/* Left section on navbar */
+
+#navSection ul {
+    margin-left: 1em;
+    height: 3em;
+    grid-template-columns: 20em 8em 8em 8em;
+    grid-gap: 1em;
+}
+
+#navSection img {
+    max-width: 10em;
+    max-height: 2em;
+}
+
+/* Right section on navbar */
+
+#userSection ul {
+    justify-content: flex-end;
+    margin-right: 1em;
+    height: 3em;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 2%;
+}
+
+#userSection button{
+    height: 2em;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.25em;
 }
 
 #loginButton {
-    height: 3em;
-    width: 10em;
-    font-size: 1em;
-    background-color: #FFFFFF;
-    border: none;
-    cursor: pointer;
-    transition: all 0.5s;
+    background-color: #ffffff;
+    transition: transform 0.5s ease-in-out;
 }
 
 #loginButton:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #FFFFFF;
-    border-radius: 5px;
+    background-color: rgba(145, 145, 145, 0.4);
+    color: white;
+    transform: scale(1.1);
 }
 
 #registerButton {
-    height: 3em;
-    width: 10em;
-    font-size: 1em;
-    font-weight: 400;
     background-color: #000000;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.5s;
+    color: #ffffff;
+    transition: transform 0.5s ease-in-out;
 }
 
 #registerButton:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: scale(1.1);
+    font-weight: 700;
 }
