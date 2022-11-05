@@ -63,24 +63,87 @@ header nav section ul li {
     border-radius: 0.25em;
 }
 
-#loginButton {
+.loginButton {
     background-color: #ffffff;
     transition: transform 0.5s ease-in-out;
 }
 
-#loginButton:hover {
+.loginButton:hover {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     transform: scale(1.1);
 }
 
-#registerButton {
+.registerButton {
     background-color: #000000;
     color: #ffffff;
     transition: transform 0.5s ease-in-out;
 }
 
-#registerButton:hover {
+.registerButton:hover {
     transform: scale(1.1);
     font-weight: 700;
+}
+
+    /* footer */
+footer {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    background-color: #000000;
+    max-height: 20em;
+    color: #ffffff;
+}
+    /* Footer top section  */
+#logo-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5% 1% 5%;
+    max-height:  100px;
+}
+
+#logo-buttons img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+#logo-buttons button {
+    height: 2.5em;
+    width: 10em;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.3em;
+}
+
+    /* footer line */
+#line-footer {
+    margin: 0% 5% 0% 5%;
+    color: #a0a0a0;
+}
+
+    /* Footer bottom section */
+#bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 5% 2% 5%;
+}
+
+#social-media-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+}
+.fab {
+    font-size: 1.5em;
 }
