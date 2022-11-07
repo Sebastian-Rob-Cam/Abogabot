@@ -1,0 +1,84 @@
+body {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-gap: 2em;
+}
+
+/* Video de abogabot */
+.videoContainer {
+    margin: auto;
+    padding-bottom: 3em;
+    width: 80%;
+}
+.videoContainer video {
+    max-width: 100%;
+}
+
+/* Integrantes abogabot */
+.integrantesContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.integrantesContainer h2 {
+    padding-bottom: 3em;
+}
+
+.integrantesContainer div {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}
+
+.integranteAbo {
+    padding: 2em;
+}
+
+.integranteAbo div {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.integranteAbo div img {
+    width: 100%;
+    height: auto;
+}
+
+/* Empresas detras de abogabot */
+.enterpriseSupport {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.enterpriseSupport p {
+    text-align: center;
+}
+
+.logosContainer {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.firstLine {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.firstLine img {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    width: 100px;
+    height: 100px;
+}
