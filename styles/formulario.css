@@ -1,0 +1,85 @@
+body {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 2em;
+}
+
+.videoContainer {
+    display: grid;
+    justify-items: center;
+}
+.video {
+    width: 80%;
+}
+
+.formularioContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formularioContainer h2 {
+    margin-left: 10%;
+    align-self: flex-start;
+}
+
+.formularioContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    padding: 2.5em;
+    position: relative;
+}
+
+.formInput {
+    width: 100%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    /* padding: .6em .3em; */
+    height: 2.5em;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font: inherit;
+}
+
+.formLabel {
+    color: #5c5c5c;
+    cursor: pointer;
+    position: relative;
+    top: -4.0em;
+    left: 0.2em;
+    transform: translateY(1.5em);
+    transition: transform .5s, color .3s;
+}
+
+.formInput:not(:placeholder-shown){
+    color: #4d4646;
+}
+
+.formInput:not(:placeholder-shown) + .formLabel{
+    transform: translateY(-12px); scale: (.7);
+    transform-origin: left top;
+    color: black;
+    font-weight: 700;
+}
+
+.formSubmit {
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    align-self: flex-end;
+    width: 8%;
+    height: 2.5em;
+    transition: all 0.5s;
+}
+
+.formSubmit:hover {
+    background-color:rgba(116, 116, 116, 0.5);
+    cursor: pointer;
+}
