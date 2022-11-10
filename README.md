@@ -26,4 +26,8 @@
   ↳ https://www.figma.com/file/UMqZAAXUzt8YubEcSkAB4x/Abogabot?node-id=0%3A1
   
 ## Wireframe (Dashboard Admin.)::globe_with_meridians::computer::dollar::chart::email:
-  ↳ https://www.figma.com/file/UMqZAAXUzt8YubEcSkAB4x/Abogabot?node-id=59%3A236 
+  ↳ https://www.figma.com/file/UMqZAAXUzt8YubEcSkAB4x/Abogabot?node-id=59%3A236
+## UI Pagina del cliente
+  ↳ https://www.figma.com/file/UMqZAAXUzt8YubEcSkAB4x/Abogabot?node-id=22%3A1772
+## UI Dashboard para el administrador
+  ↳ https://www.figma.com/file/UMqZAAXUzt8YubEcSkAB4x/Abogabot?node-id=59%3A238
