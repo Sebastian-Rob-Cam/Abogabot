@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" href="/assets/logos/abogabot-logosquare-white.svg">
+    <link rel="stylesheet" href="/styles/nav-footer-COMP.css">
+    <link rel="stylesheet" href="/styles/contactanos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <title>Contactanos - Abogabot</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <section id="navSection">
+                <ul>
+                    <li class="navLi"><a href="/index.html"><img src="/assets/logos/abogabot-logo-black.svg" alt="Boton home page"></a></li>
+                    <li class="navLi"><a href="/html/nosotros.html">Nosotros</a></li>
+                    <li class="navLi"><a href="/html/formulario.html">Formulario</a></li>
+                    <li class="navLi"><a href="/html/contactanos.html">Contactanos</a></li>
+                </ul>
+            </section>
+            <section id="userSection">
+                <ul>
+                    <li><a href="">Ayuda</a></li>
+                    <li><button class="loginButton">Ingresar</button></li>
+                    <li><button class="registerButton">Registrarse</button></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+
+    <!-- adress zone -->
+    <section class="adress-container flex-display">
+        <div class="adress-text flex-display">
+            <h2>Oficinas de abogabot</h2>
+            <div>
+                <p class="fas fa-location-dot"></p>
+                <span>Insurgentes Sur, Del Valle Centro, Benito Juárez</span>
+            </div>
+        </div>
+        <div class="adress-map flex-display">
+            Insertar mapa
+        </div>
+    </section>
+
+    <!-- contact form -->
+    <section class="contact-container flex-display">
+        <div>
+            <h2>Puedes contactarnos o dejarnos tus datos</h2>
+        </div>
+        <div class="info-contact flex-display">
+            <form class="form-contact flex-display">
+                <h3>Dejanos tus datos</h3>
+
+                <input type="text" id="nombre" class="form-input" placeholder=" " required>
+                <label for="nombre" class="form-label">Nombre</label>
+
+                <input type="text" id="apellidos" class="form-input" placeholder=" ">
+                <label for="apellidos" class="form-label">Apellidos</label>
+                
+                <input type="email" name="email" id="email-form" class="form-input" placeholder=" " required>
+                <label for="email" class="form-label">Correo</label>
+
+                <input type="tel" name="tel" id="number-form" minlength="10" maxlength="15" class="form-input" placeholder=" " required>
+                <label for="tel" class="form-label">Telefono o celular</label>
+                
+
+                <input type="submit" value="Contactenme" id="submit-btn">
+            </form>
+            <div class="abogabotinfo-container flex-display">
+                <div>
+                    <h3>Contactanos por estos medios</h3>
+                    <p>Celular: 55-0000-0000</p>
+                    <p>Correo: abogabot@practica.com</p>
+                    <h4>O por nuestras redes sociales</h4>
+                </div>
+                <div class="socialmedia-icons flex-display">
+                    <a class="fab fa-facebook-f"></a>
+                    <a class="fab fa-instagram"></a>
+                    <a class="fab fa-whatsapp"></a>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <section id="logo-buttons">
+            <div>
+                <img src="/assets/logos/abogabot-logosquare-white.svg" alt="Logotipo Abogabot">
+            </div>
+            <div class="buttons">
+                <button class="loginButton">Ingresar</button>
+                <button class="registerButton">Registrarse</button>
+            </div>
+        </section>
+        <section id="line-footer">
+            <hr>
+        </section>
+        <section id="bottom-section">
+            <article>
+                <p>© Abogabot, Inc. 2022. We love our users!</p>
+            </article>
+            <div id="social-media-footer">
+                <span>Siguenos en:</span>
+                <a class="fab fa-facebook-f"></a>
+                <a class="fab fa-instagram"></a>
+                <a class="fab fa-tiktok"></a>
+            </div>
+        </section>
+    </footer>
+
+</body>
+</html>
